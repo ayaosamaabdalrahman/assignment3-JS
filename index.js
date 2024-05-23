@@ -31,7 +31,7 @@ function deleteBookmark(index){
 }
 
 function validateUrl(url) {
-    const urlPattern = /^(https?:\/\/)?([\w-]+\.)*[\w-]+(:\d+)?(\/\S*)?$/;
+    const urlPattern = /^(https:\/\/|http:\/\/)([\w-]+\.)[\w-]+(:\d+)?(\/\S)?$/;
     return urlPattern.test(url);
 }
 
