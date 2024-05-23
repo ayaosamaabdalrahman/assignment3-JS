@@ -23,7 +23,7 @@ h1::before {
     content: '';
     position: absolute;
     width: 275px;
-    height: 100px;
+    height: 12%;
     left: 510px;
     bottom: 75px;
     background-color: #fec260;
