@@ -24,7 +24,7 @@ h1::before {
     position: absolute;
     width: 275px;
     height: 12%;
-    left: 510px;
+
     bottom: 75px;
     background-color: #fec260;
     transition: height 350ms;
